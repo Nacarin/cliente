@@ -1,0 +1,50 @@
+body{
+    background-image: url("imagenes/fondoIndex.jpg");
+    background-size: cover;
+
+}
+header {
+    background: rgba(0,0,0,0.7);
+    width: 24%; 
+
+    margin-left: 38%;
+
+}
+
+  
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+    
+}
+  
+nav ul li {
+    float: left;
+    font-family: Arial;
+    font-size: 16px;
+    word-spacing: 20%;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+nav ul li:hover {
+    background: #de85f0;
+    
+}
+
+article{
+    width: 70%;
+    padding-top: 6%;
+    padding-left: 1%;
+}
+
+ul{
+    list-style: disc;
+}
