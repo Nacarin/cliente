@@ -21,8 +21,9 @@ function atenderBotonCargar(){
     divExamen.style.display='block'
 }
 
-function comprobarPregunta2(){
-    let valor= iPregunta2.value
-    if(valor !==5)
+function comprobarPregunta2() {
+    let valor = parseFloat(iPregunta2.value); // Convertir el valor a número
+    if (valor !== 5) {
         alert('Eres mongolo')
+    }
 }
